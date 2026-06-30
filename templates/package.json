@@ -1,0 +1,21 @@
+{
+  "name": "dotnet-tailwind-vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "tailwindcss": "^4.3.2",
+    "vite": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1"
+  }
+}

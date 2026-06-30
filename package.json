@@ -1,0 +1,25 @@
+{
+  "name": "dotnet-tailwind-vite",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "dotnet-vite": "./index.js"
+  },
+  "author": {
+    "name": "Muammar",
+    "url": "https://muammars.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotnet-tailwind-vite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dotnet-tailwind-vite/issues"
+  },
+  "homepage": "https://github.com/dotnet-tailwind-vite#readme",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "globby": "^14.0.2"
+  }
+}
