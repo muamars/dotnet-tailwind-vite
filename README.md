@@ -17,16 +17,16 @@ Tool ini secara otomatis menyalin konfigurasi, membuat file CSS utama, dan menyi
 
 ## 🛠️ Cara Instalasi & Penggunaan
 
-Anda bisa langsung menggunakan tool ini di proyek baru Anda melalui repositori GitHub tanpa perlu mengunduhnya manual.
+Karena package ini sudah dipublikasikan secara resmi, Anda bisa langsung menggunakannya di proyek ASP.NET Core baru Anda dengan langkah mudah berikut:
 
 ### 1. Jalankan Perintah Install di Proyek Baru Anda
 Buka terminal di dalam folder proyek ASP.NET Core baru Anda yang masih kosong (atau proyek yang ingin diintegrasikan), lalu ketik:
 
 ```bash
-npm install github:muamars/dotnet-tailwind-vite --save-dev
+npm install @muamars/dotnet-tailwind-vite --save-dev
 ```
 
-### 2. Inisialisasi Integrasi
+### 2. Inisialisasi Integrasi via CLI
 Setelah proses instalasi selesai, jalankan perintah CLI berikut untuk mengotomatisasi seluruh konfigurasi:
 
 ```bash
@@ -71,8 +71,8 @@ else
 }
 ```
 
-### 3. File `vite.config.ts`
-Menyiapkan jalur kompilasi aset agar output build langsung mengarah dan memperbarui file statis produksi .NET Anda.
+### 2. File `vite.config.ts`
+Menyiapkan jalur kompilasi aset agar output build langsung mengarah dan memperbarui file statis produksi .NET Anda tanpa merusak file bawaan wwwroot lainnya.
 
 ---
 

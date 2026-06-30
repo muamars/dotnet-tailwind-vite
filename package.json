@@ -1,10 +1,10 @@
 {
-  "name": "dotnet-tailwind-vite",
+  "name": "@muamars/dotnet-tailwind-vite",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "dotnet-vite": "./index.js"
+    "dotnet-vite": "index.js"
   },
   "author": {
     "name": "Muammar",
