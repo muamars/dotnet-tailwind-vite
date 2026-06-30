@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotnet-tailwind-vite.git"
+    "url": "https://github.com/muamars/dotnet-tailwind-vite.git"
   },
   "bugs": {
-    "url": "https://github.com/dotnet-tailwind-vite/issues"
+    "url": "https://github.com/muamars/dotnet-tailwind-vite/issues"
   },
-  "homepage": "https://github.com/dotnet-tailwind-vite#readme",
+  "homepage": "https://github.com/muamars/dotnet-tailwind-vite#readme",
   "dependencies": {
     "fs-extra": "^11.3.0",
     "globby": "^14.0.2"
